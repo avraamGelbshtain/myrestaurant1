@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="head.css">
+</head>
+<body style="background-color: white;">
+    <form method="GET">
+        <div class="form-group">
+            <label for="exampleFormControlInput1">שם ומשפחה</label>
+            <input type="text" name="name" class="form-control" id="exampleFormControlInput1" placeholder="שם ומשפחה"><br>
+          <label for="exampleFormControlInput1">אימייל</label>
+          <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"><br>
+          <label for="exampleFormControlInput1">טלפון</label>
+            <input type="tel" name="tel" class="form-control" id="exampleFormControlInput1" placeholder="טלפון"><br>
+            <label for="exampleFormControlSelect2">כתובת</label>
+          <input type="text" name="address" class="form-control" id="exampleFormControlInput1" placeholder="כתובת"><br>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">מנה לבחירה</label>
+          <select class="form-control" name="option" id="exampleFormControlSelect1">
+            <option>בחר מוצר</option>
+            <option>פיצה מרגריטה </option>
+            <option>מגש צ'יזי בייט עם תוספות</option>
+            <option>לזניית גבינות</option>
+            <option>ספגטי\פנה סלסה רוזה</option>
+            <option>סלט בטטה</option>
+            <option>מרק עגבניות מוקרם</option>
+          </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">קינוחים שתיה ותוספות</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>בחר מוצר</option>
+              <option>וופל בלגי</option>
+              <option>קראנצ' קרפ</option>
+              <option>אייס קפה</option>
+              <option>גלידה</option>
+              <option>קולה</option>
+            </select>
+          </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">כמות</label>
+          <input type="number" name="amount" class="form-control" id="exampleFormControlInput1" placeholder="כמות"><br>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">הערות</label>
+          <textarea class="form-control" name="remarks" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" >שלח</button>
+        <button type="reset" class="btn btn-primary" >טופס חדש</button>
+      </form>
+
+</body>
+</html>
